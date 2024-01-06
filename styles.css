@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+body.background {
+    background-image: url('../img/bg_hex.jpg'); /* Replace 'your-image.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* opacity: 0.5;  */
+    /* Set the overall opacity of the background */
+}
+
+header {
+    background-color: rgba(240, 240, 240, 100); /* Set the background color with 0% opacity */
+    color: #333;
+    padding: 1rem;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: top; /* Center items vertically */
+    text-align: center;
+    margin-top: calc(1/5 * 100vh); 
+    /* Adjust margin-top based on 2/5 of the viewport height */
+}
+
+h2 {
+    font-size: 4em;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #e7d8c9;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+button:hover {
+    background-color: #001f4d;
+}
+
+footer {
+    background-color: rgba(240, 240, 240, 100); /* Set the background color with 0% opacity */
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
